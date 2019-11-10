@@ -16,6 +16,8 @@
     <properties>
         <!-- Imported Jars -->
         <swing.version>1.0.2</swing.version>
+        <junit.version>4.11</junit.version>
+        <spring.version>5.2.1.RELEASE</spring.version>
 
 
 
@@ -26,6 +28,7 @@
         <!-- Bundle versions -->
         <common.version>1.0.0.Bansal</common.version>
         <copies.version>1.0.0.Bansal</copies.version>
+        <passwordManager.version>1.0.0.Bansal</passwordManager.version>
     </properties>
 
 
@@ -36,6 +39,7 @@
     <modules>
         <module>common</module>
         <module>createCopies</module>
+        <module>PasswordManager</module>
     </modules>
 
     <url>http://maven.apache.org</url>
@@ -45,6 +49,37 @@
             <artifactId>swing-layout</artifactId>
             <version>${swing.version}</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Spring dependencies -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+    		<groupId>javax.servlet</groupId>
+    		<artifactId>javax.servlet-api</artifactId>
+    		<version>3.1.0</version>
+    		<scope>provided</scope>
+		</dependency>
     </dependencies>
     <!--<dependencies>
       <dependency>
