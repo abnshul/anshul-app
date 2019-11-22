@@ -29,6 +29,7 @@
         <common.version>1.0.0.Bansal</common.version>
         <copies.version>1.0.0.Bansal</copies.version>
         <passwordManager.version>1.0.0.Bansal</passwordManager.version>
+        <spring-mvc-example.version>1.0.0.Bansal</spring-mvc-example.version>
     </properties>
 
 
@@ -40,6 +41,7 @@
         <module>common</module>
         <module>createCopies</module>
         <module>PasswordManager</module>
+        <module>PCRobot</module>
     </modules>
 
     <url>http://maven.apache.org</url>
