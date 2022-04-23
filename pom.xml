@@ -17,7 +17,7 @@
         <!-- Imported Jars -->
         <swing.version>1.0.2</swing.version>
         <junit.version>4.11</junit.version>
-        <spring.version>5.2.1.RELEASE</spring.version>
+        <spring.version>5.3.19</spring.version>
 
 
 
